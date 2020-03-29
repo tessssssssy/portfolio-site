@@ -1,0 +1,18 @@
+@import 'partials.scss';
+
+.blog {
+    margin-top:100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    .blog-post {
+        max-width: 600px;
+        margin: 50px 50px;
+        p {
+            line-height: 1.5rem;
+        }
+    }
+
+}
+
