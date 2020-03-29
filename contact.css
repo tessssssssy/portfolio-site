@@ -37,16 +37,18 @@ footer a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 100px;
+  margin: 100px 0px;
 }
 .contact form {
-  margin-top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  width: 400px;
+  width: 300px;
   text-align: left;
+}
+.contact form input {
+  margin: 20px 0px;
 }
 
 /*# sourceMappingURL=contact.css.map */
