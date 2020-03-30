@@ -10,13 +10,23 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        width: 300px;
+        width: 200px;
         text-align: left;
         input {
             margin: 10px 0px;
+            font-size: 14pt;
         }
         button {
             margin-top: 10px;
+            color: white;
+            background-color: #E00073;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            font-size: 12pt;
+        }
+        textarea {
+            font-size: 14pt;
         }
     }
 }

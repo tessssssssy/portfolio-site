@@ -38,6 +38,9 @@ nav a {
   padding: 20px 50px;
   text-transform: uppercase;
 }
+nav a:hover {
+  color: white;
+}
 
 @media screen and (min-width: 601px) {
   nav {
@@ -64,14 +67,18 @@ nav a {
 footer {
   height: 100px;
   width: 100%;
-  background-color: #24002E;
+  background-color: #1A1A1A;
   margin: 0px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 footer a {
   text-decoration: none;
+  color: grey;
+  margin: 0px 50px;
+}
+footer a:hover {
   color: white;
 }
 
@@ -86,14 +93,24 @@ footer a {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  width: 300px;
+  width: 200px;
   text-align: left;
 }
 .contact form input {
   margin: 10px 0px;
+  font-size: 14pt;
 }
 .contact form button {
   margin-top: 10px;
+  color: white;
+  background-color: #E00073;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 12pt;
+}
+.contact form textarea {
+  font-size: 14pt;
 }
 
 /*# sourceMappingURL=contact.css.map */
