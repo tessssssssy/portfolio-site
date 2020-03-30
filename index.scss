@@ -1,38 +1,51 @@
 @import 'partials.scss';
+@import 'slideshow.scss';
 
 .landing {
     width: 100vw;
     height: 100vh;
-    background-color: darkmagenta;
+    background-color: #24002E;
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(36,0,46,1) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-     h1 {
-         color: hotpink;
-         display: block;
-     }
-     a {
-         background-color: lightcyan;
-         display: block;
-     }
+    .landing-container {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1 {
+            color: #E00073;
+            display: block;
+            text-align: center;
+        }
+        a {
+            display: block;
+            color: #00FFBF;
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid #00FFBF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            background-color: #00FFBF;
+            color: #00003E;
+        }
+   
+        h3 {
+           color: #810060;
+           font-size: 28pt;
+           text-transform: uppercase;
+           font-family: 'Roboto', sans-serif;
+           font-weight: 300;
+           letter-spacing: 1px;
+   
+        }
+    }
+    
 }
-
-// nav {
-//     width: 100%;
-//     height: 50px;
-//     position: sticky;
-//     top: 0px;
-//     display: flex;
-//     justify-content: space-around;
-//     align-items: center;
-//     background-color: lightcyan;
-
-//     a {
-//         text-decoration: none;
-//         color: black;
-//     }
-// }
 
 .portfolio {
     margin-top:100px;
@@ -40,6 +53,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    #toy-robot {
+        background-color: #00FFBF;
+    }
     .project {
         display: flex;
         flex-direction: column;
@@ -55,13 +71,10 @@
         }
         @media screen and (min-width: 601px) {
             .project-content {
-                width: 600px;
+                // width: 600px;
                 display: grid; 
                 grid-template-columns: 1fr 1r;
                 grid-template-rows: 1fr 1fr;
-                img {
-                    width: 300px;
-                }
                 #one {
                     grid-row: 1 / 2;
                     grid-column: 1 / 2;
