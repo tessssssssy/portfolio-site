@@ -9,6 +9,7 @@
     }
     
 }
+
 .landing {
     width: 100vw;
     height: 100vh;
@@ -72,18 +73,6 @@
     flex-direction: column;
     align-items: center;
 
-    // #terminal-app {
-    //     background-color: lavender;
-        
-    // }
-
-    // #rock-paper-scissors {
-    //     background-color: lightpink;
-    // }
-
-    // #toy-robot {
-    //     background-color: peachpuff;
-    // }
     .project {
         display: flex;
         flex-direction: column;
@@ -179,7 +168,7 @@
                 align-items: center;
                 img {
                     display: block;
-                    // width: 300px;
+                    width: 500px;
                     // border-radius: 20px;
                 }
 
