@@ -133,7 +133,7 @@
             }
            
         }
-        @media only screen and (min-device-width: 601px) {
+        @media only screen and (min-width: 601px) {
             .project-content {
                 // width: 600px;
                 display: grid; 
@@ -173,13 +173,13 @@
             align-items: center;
             img {
                 display: block;
-                width: 800px;
+                width: 300px;
                 // border-radius: 20px;
             }
 
             p {
                 display: block;
-                width: 800px;
+                width: 300px;
                 padding-top: 20px;
                 font-size: 18pt;
             }
