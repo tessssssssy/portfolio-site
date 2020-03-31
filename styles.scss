@@ -7,6 +7,10 @@ body {
     
 }
 
+* {
+    box-sizing: border-box;
+}
+
 p {
     line-height: 1.5rem;
     font-family: 'Lora', serif;
@@ -32,16 +36,16 @@ nav {
     display: flex;
     z-index: 10;
     align-items: center;
-    background-color: #1A1A1A;
+    background-color: rgba(2,0,36,1.0);
     a {
         text-decoration: none;
-        color: #E00073;
+        color: grey;
         padding: 20px 50px;
         text-transform: uppercase;
         transition: 0.5s;
     }
     a:hover {
-        color: white;
+        color: #E00073;
     }
 
 }
