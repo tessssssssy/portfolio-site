@@ -6,6 +6,10 @@ body {
   background-color: white;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 p {
   line-height: 1.5rem;
   font-family: "Lora", serif;
@@ -22,6 +26,11 @@ h1 {
 
 h2 {
   font-size: 48pt;
+  color: #1a0520;
+}
+
+h3 {
+  font-size: 20pt;
 }
 
 nav {
@@ -31,17 +40,17 @@ nav {
   display: flex;
   z-index: 10;
   align-items: center;
-  background-color: #1A1A1A;
+  background-color: #1a0520;
 }
 nav a {
   text-decoration: none;
-  color: #E00073;
+  color: grey;
   padding: 20px 50px;
   text-transform: uppercase;
   transition: 0.5s;
 }
 nav a:hover {
-  color: white;
+  color: #E00073;
 }
 
 @media screen and (min-width: 601px) {
@@ -59,7 +68,6 @@ nav a:hover {
   nav a {
     padding: 2px 10px;
     display: none;
-    background-color: #24002E;
   }
 
   nav:hover a {
@@ -112,7 +120,6 @@ footer a:hover {
   border: 2px solid #E00073;
   padding: 10px;
   border-radius: 5px;
-  border: none;
   font-size: 12pt;
   transition: 0.5s;
 }

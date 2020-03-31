@@ -26,6 +26,11 @@ h1 {
 
 h2 {
   font-size: 48pt;
+  color: #1a0520;
+}
+
+h3 {
+  font-size: 20pt;
 }
 
 nav {
@@ -35,7 +40,7 @@ nav {
   display: flex;
   z-index: 10;
   align-items: center;
-  background-color: #1A1A1A;
+  background-color: #1a0520;
 }
 nav a {
   text-decoration: none;

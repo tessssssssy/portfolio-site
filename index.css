@@ -26,6 +26,11 @@ h1 {
 
 h2 {
   font-size: 48pt;
+  color: #1a0520;
+}
+
+h3 {
+  font-size: 20pt;
 }
 
 nav {
@@ -35,7 +40,7 @@ nav {
   display: flex;
   z-index: 10;
   align-items: center;
-  background-color: #020024;
+  background-color: #1a0520;
 }
 nav a {
   text-decoration: none;
@@ -212,7 +217,7 @@ footer a:hover {
   height: 100vh;
   background-color: #1A1A1A;
   background-blend-mode: multiply;
-  background: linear-gradient(0deg, #020024 0%, rgba(36, 0, 46, 0.2)), url("images/landing-bg.jpg");
+  background: linear-gradient(0deg, #1a0520 0%, rgba(26, 5, 32, 0.2)), url("images/landing-bg.jpg");
   background-size: 100vw;
   display: flex;
   justify-content: center;
@@ -267,7 +272,6 @@ footer a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: white;
   padding: 100px 0px;
   width: 100%;
 }
@@ -279,7 +283,7 @@ footer a:hover {
   text-align: center;
 }
 .portfolio .project img {
-  border-radius: 10px;
+  border-radius: 20px;
 }
 .portfolio .project .github {
   text-decoration: none;
@@ -321,7 +325,6 @@ footer a:hover {
   }
   .portfolio .project .project-content img {
     width: 500px;
-    border: 2px solid #00FFBF;
   }
 }
 

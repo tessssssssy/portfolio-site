@@ -6,7 +6,7 @@
     height: 100vh;
     background-color: #1A1A1A;
     background-blend-mode: multiply;
-    background: linear-gradient(0deg, rgba(2,0,36,1.0) 0%, rgba(36,0,46,0.2)), url("images/landing-bg.jpg");
+    background: linear-gradient(0deg, rgba(26, 5, 32, 1.0) 0%, rgba(26, 5, 32, 0.2)), url("images/landing-bg.jpg");
     background-size: 100vw;
     display: flex;
     justify-content: center;
@@ -60,12 +60,25 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    // #terminal-app {
+    //     background-color: lavender;
+        
+    // }
+
+    // #rock-paper-scissors {
+    //     background-color: lightpink;
+    // }
+
+    // #toy-robot {
+    //     background-color: peachpuff;
+    // }
     .project {
         display: flex;
         flex-direction: column;
         align-items: center;
         // background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(36,0,46,1) 100%);
-        background-color: white;
+        // background-color: white;
         padding: 100px 0px;
         width: 100%;
         h3 {
@@ -77,7 +90,7 @@
         }
 
         img {
-            border-radius: 10px;
+            border-radius: 20px;
         }
 
         .github {
@@ -123,7 +136,7 @@
                 }
                 img {
                     width: 500px;
-                    border: 2px solid #00FFBF;
+                    // border: 2px solid black;
                     // border-radius: 20px;
                 }
             }   
