@@ -38,7 +38,6 @@ nav a {
   color: #E00073;
   padding: 20px 50px;
   text-transform: uppercase;
-  transition: 0.5s;
 }
 nav a:hover {
   color: white;
@@ -79,7 +78,6 @@ footer a {
   text-decoration: none;
   color: grey;
   margin: 0px 50px;
-  transition: 0.5s;
 }
 footer a:hover {
   color: white;
@@ -138,9 +136,6 @@ footer a:hover {
   .about .bio p {
     margin-top: 20px;
   }
-  .about .links-container {
-    flex-direction: column;
-  }
 }
 @media screen and (min-width: 601px) {
   .about p {
@@ -152,6 +147,8 @@ footer a:hover {
   display: flex;
   align-items: center;
   margin-bottom: 50px;
+  width: 50%;
+  flex-wrap: wrap;
 }
 .about .links-container a {
   text-decoration: none;
@@ -161,11 +158,10 @@ footer a:hover {
   padding: 10px;
   border-radius: 5px;
   margin: 20px 20px;
-  transition: 0.5s;
 }
 .about .links-container a:hover {
   color: white;
   background-color: #E00073;
 }
 
-/*# sourceMappingURL=about.css.map */
+/*# sourceMappingURL=about.cs.map */

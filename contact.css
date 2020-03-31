@@ -3,6 +3,7 @@ body {
   padding: 0px;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
+  background-color: white;
 }
 
 p {
@@ -37,6 +38,7 @@ nav a {
   color: #E00073;
   padding: 20px 50px;
   text-transform: uppercase;
+  transition: 0.5s;
 }
 nav a:hover {
   color: white;
@@ -77,6 +79,7 @@ footer a {
   text-decoration: none;
   color: grey;
   margin: 0px 50px;
+  transition: 0.5s;
 }
 footer a:hover {
   color: white;
@@ -93,24 +96,36 @@ footer a:hover {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  width: 200px;
-  text-align: left;
+  width: 350px;
+  text-align: center;
 }
 .contact form input {
   margin: 10px 0px;
   font-size: 14pt;
+  width: 100%;
+  border-radius: 5px;
 }
 .contact form button {
   margin-top: 10px;
-  color: white;
-  background-color: #E00073;
+  color: #E00073;
+  background-color: white;
+  border: 2px solid #E00073;
   padding: 10px;
   border-radius: 5px;
   border: none;
   font-size: 12pt;
+  transition: 0.5s;
+}
+.contact form button:hover {
+  cursor: pointer;
+  background-color: #E00073;
+  color: white;
 }
 .contact form textarea {
-  font-size: 14pt;
+  font-size: 12pt;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=contact.css.map */
