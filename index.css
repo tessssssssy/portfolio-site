@@ -143,40 +143,76 @@ footer a:hover {
   left: 0px;
 }
 
-.slide-container {
-  width: 500px;
-  height: 600px;
-}
+@media screen and (min-device-width: 601px) {
+  .slide-container {
+    width: 500px;
+    height: 600px;
+  }
 
-.image-container {
-  width: 1500px;
-  height: 600px;
-}
+  .image-container {
+    width: 1500px;
+    height: 600px;
+  }
 
-#slider-image-2:target ~ .image-container {
-  left: -500px;
-}
+  #slider-image-2:target ~ .image-container {
+    left: -500px;
+  }
 
-#slider-image-3:target ~ .image-container {
-  left: -1000px;
-}
+  #slider-image-3:target ~ .image-container {
+    left: -1000px;
+  }
 
-#rock-image-2:target ~ .image-container {
-  left: -500px;
-}
+  #rock-image-2:target ~ .image-container {
+    left: -500px;
+  }
 
-#rock-image-3:target ~ .image-container {
-  left: -1000px;
-}
+  #rock-image-3:target ~ .image-container {
+    left: -1000px;
+  }
 
-#robot-image-2:target ~ .image-container {
-  left: -500px;
-}
+  #robot-image-2:target ~ .image-container {
+    left: -500px;
+  }
 
-#robot-image-3:target ~ .image-container {
-  left: -1000px;
+  #robot-image-3:target ~ .image-container {
+    left: -1000px;
+  }
 }
+@media screen and (max-device-width: 600px) {
+  .slide-container {
+    width: 600px;
+    height: 700px;
+  }
 
+  .image-container {
+    width: 1800px;
+    height: 700px;
+  }
+
+  #slider-image-2:target ~ .image-container {
+    left: -600px;
+  }
+
+  #slider-image-3:target ~ .image-container {
+    left: -1200px;
+  }
+
+  #rock-image-2:target ~ .image-container {
+    left: -600px;
+  }
+
+  #rock-image-3:target ~ .image-container {
+    left: -1200px;
+  }
+
+  #robot-image-2:target ~ .image-container {
+    left: -600px;
+  }
+
+  #robot-image-3:target ~ .image-container {
+    left: -1200px;
+  }
+}
 @media only screen and (min-device-width: 900px) {
   .landing {
     background: linear-gradient(0deg, rgba(26, 5, 32, 0) 0%, rgba(26, 5, 32, 0)), url("images/sunset-7.png");
@@ -324,11 +360,11 @@ footer a:hover {
   }
   .project-content img {
     display: block;
-    width: 500px;
+    width: 600px;
   }
   .project-content p {
     display: block;
-    width: 500px;
+    width: 600px;
     padding-top: 20px;
     font-size: 14pt;
   }
