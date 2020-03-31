@@ -56,13 +56,13 @@ nav {
 
 }
 
-@media only screen and (min-width: 601px) {
+@media screen and (min-width: 601px) {
     nav {
         justify-content: center;       
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     nav {
         display: flex;
         flex-direction: column;
