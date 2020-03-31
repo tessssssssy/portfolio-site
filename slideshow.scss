@@ -51,7 +51,7 @@
 }
 
 // WEB VIEW
- @media screen and (min-device-width: 601px) {
+ @media screen and (min-width: 601px) {
     .slide-container {
         width: 500px;
         height: 600px;
@@ -88,7 +88,7 @@
  }
 
 // MOBILE VIEW
-@media screen and (max-device-width: 600px) {
+@media screen and (max-width: 600px) {
     .slide-container {
         width: 800px;
         height: 900px;
