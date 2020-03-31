@@ -2,7 +2,7 @@
 @import 'slideshow.scss';
 // https://images.pexels.com/photos/220118/pexels-photo-220118.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-device-width: 900px) {
     .landing {
         background: linear-gradient(0deg, rgba(26, 5, 32, 0.0) 0%, rgba(26, 5, 32, 0.0)), url("images/sunset-7.png");
         background-size: 100vw;
@@ -144,7 +144,7 @@
             }
            
         }
-        @media only screen and (min-width: 601px) {
+        @media only screen and (min-device-width: 601px) {
             .project-content {
                 // width: 600px;
                 display: grid; 
@@ -172,7 +172,7 @@
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-device-width: 600px) {
             .project-content {
                 display: flex;
                 flex-direction: column;
