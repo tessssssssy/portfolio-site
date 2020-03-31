@@ -212,12 +212,16 @@ footer a:hover {
     left: -600px;
   }
 }
+@media screen and (min-width: 900px) {
+  .landing {
+    background: linear-gradient(0deg, rgba(26, 5, 32, 0) 0%, rgba(26, 5, 32, 0)), url("images/sunset-2.png");
+    background-size: 100vw;
+  }
+}
 .landing {
   width: 100vw;
   height: 100vh;
-  background-color: #1A1A1A;
-  background-blend-mode: multiply;
-  background: linear-gradient(0deg, #1a0520 0%, rgba(26, 5, 32, 0.2)), url("images/landing-bg.jpg");
+  background-color: #1a0520;
   background-size: 100vw;
   display: flex;
   justify-content: center;
@@ -294,6 +298,20 @@ footer a:hover {
   font-size: 18pt;
   margin-top: 5px;
   transition: 0.5s;
+}
+.portfolio .project .site {
+  text-decoration: none;
+  color: #00FFBF;
+  border: 2px solid #00FFBF;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 18pt;
+  margin-top: 5px;
+  transition: 0.5s;
+}
+.portfolio .project .site:hover {
+  background-color: #00FFBF;
+  color: white;
 }
 .portfolio .project .github:hover {
   background-color: #E00073;
