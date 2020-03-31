@@ -32,6 +32,7 @@ h2 {
 
 h3 {
     font-size: 20pt;
+    font-weight: 300;
 }
 
 nav {   
@@ -43,8 +44,8 @@ nav {
     align-items: center;
     background-color: rgba(26, 5, 32, 1.0);
     a {
-        text-decoration: none;
-        color: grey;
+        text-decoration: none; 
+        color: white;
         padding: 20px 50px;
         text-transform: uppercase;
         transition: 0.5s;
@@ -83,19 +84,19 @@ nav {
 footer {
     height: 100px;
     width: 100%;
-    background-color: #1A1A1A;
+    background-color: #413bd6;
     margin: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
     a {
         text-decoration: none;
-        color: grey;
+        color: white;
         margin: 0px 50px;
         transition: 0.5s;
     }
     a:hover {
-        color: white;
+        color: #E00073;
     }
 }
 
