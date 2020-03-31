@@ -123,6 +123,10 @@ footer a:hover {
   left: 0px;
 }
 
+#rock-image-1:target ~ .image-container {
+  left: 0px;
+}
+
 @media screen and (min-width: 601px) {
   .slide-container {
     width: 500px;
@@ -139,6 +143,14 @@ footer a:hover {
   }
 
   #slider-image-3:target ~ .image-container {
+    left: -1000px;
+  }
+
+  #rock-image-2:target ~ .image-container {
+    left: -500px;
+  }
+
+  #rock-image-3:target ~ .image-container {
     left: -1000px;
   }
 }
@@ -158,6 +170,14 @@ footer a:hover {
   }
 
   #slider-image-3:target ~ .image-container {
+    left: -600px;
+  }
+
+  #rock-image-2:target ~ .image-container {
+    left: -300px;
+  }
+
+  #rock-image-3:target ~ .image-container {
     left: -600px;
   }
 }
