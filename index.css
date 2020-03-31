@@ -180,37 +180,37 @@ footer a:hover {
 }
 @media screen and (max-device-width: 600px) {
   .slide-container {
-    width: 600px;
-    height: 700px;
+    width: 800px;
+    height: 900px;
   }
 
   .image-container {
-    width: 1800px;
-    height: 700px;
+    width: 2400px;
+    height: 900px;
   }
 
   #slider-image-2:target ~ .image-container {
-    left: -600px;
+    left: -800px;
   }
 
   #slider-image-3:target ~ .image-container {
-    left: -1200px;
+    left: -1600px;
   }
 
   #rock-image-2:target ~ .image-container {
-    left: -600px;
+    left: -800px;
   }
 
   #rock-image-3:target ~ .image-container {
-    left: -1200px;
+    left: -1600px;
   }
 
   #robot-image-2:target ~ .image-container {
-    left: -600px;
+    left: -800px;
   }
 
   #robot-image-3:target ~ .image-container {
-    left: -1200px;
+    left: -1600px;
   }
 }
 @media only screen and (min-device-width: 900px) {
@@ -360,13 +360,13 @@ footer a:hover {
   }
   .project-content img {
     display: block;
-    width: 600px;
+    width: 800px;
   }
   .project-content p {
     display: block;
-    width: 600px;
+    width: 800px;
     padding-top: 20px;
-    font-size: 14pt;
+    font-size: 18pt;
   }
 }
 
