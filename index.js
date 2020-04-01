@@ -11,11 +11,13 @@ console.log(links);
 hamburger.addEventListener("click", function() {
 	console.log("CLICK WORKING!");
 	for (var i = 0; i < links.length; i++) {
-		if (links[i].style.display === 'none') {
-			links[i].style.display = 'block'
-		} else {
+		if (links[i].style.display === 'flex' || links[i].style.display === 'block') {
 			links[i].style.display = 'none'
+		} else {
+			links[i].style.display = 'block'
 		}
 	}	
 })
+
+
 
