@@ -75,11 +75,11 @@ nav .nav-links-container #hamburger i {
     height: 100%;
     display: block;
     color: white;
-    padding-right: 15px;
-    padding-top: 15px;
+    padding-right: 10px;
+    padding-top: 10px;
   }
   nav #hamburger i {
-    font-size: 28pt;
+    font-size: 20pt;
   }
   nav #hamburger:hover {
     color: #E00073;
