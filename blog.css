@@ -131,7 +131,7 @@ footer a:hover {
 .blog .blog-post-container {
   display: flex;
   width: 90%;
-  height: 400px;
+  height: 800px;
 }
 .blog .blog-post-container .blog-post {
   width: 20%;
