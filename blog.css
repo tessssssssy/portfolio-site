@@ -3,7 +3,8 @@ body {
   padding: 0px;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  background-color: white;
+  background-color: #1a0520;
+  color: white;
 }
 
 * {
@@ -11,8 +12,9 @@ body {
 }
 
 p {
-  line-height: 1.5rem;
+  line-height: 2rem;
   font-family: "Lora", serif;
+  color: purple;
 }
 
 h1, h2 {
@@ -26,7 +28,7 @@ h1 {
 
 h2 {
   font-size: 48pt;
-  color: #1a0520;
+  color: #00FFBF;
 }
 
 h3 {
@@ -41,18 +43,18 @@ nav {
   display: flex;
   z-index: 10;
   align-items: center;
-  background-color: #1a0520;
+  background-color: #E00073;
   min-height: 50px;
 }
 nav .nav-links-container a {
   text-decoration: none;
-  color: white;
+  color: #1a0520;
   padding: 20px 50px;
   text-transform: uppercase;
   transition: 0.5s;
 }
 nav .nav-links-container a:hover {
-  color: #E00073;
+  color: white;
 }
 nav .nav-links-container #hamburger i {
   color: white;
