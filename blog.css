@@ -113,12 +113,13 @@ footer {
 }
 footer a {
   text-decoration: none;
-  color: white;
+  color: #7774d1;
   margin: 0px 50px;
   transition: 0.5s;
+  font-size: 24pt;
 }
 footer a:hover {
-  color: #E00073;
+  color: white;
 }
 
 .blog {

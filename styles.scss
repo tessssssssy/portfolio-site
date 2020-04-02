@@ -68,7 +68,6 @@ nav {
 @media screen and (max-width: 600px) {
     nav {
         display: flex;
-        // flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
         .nav-links-container {
@@ -122,12 +121,13 @@ footer {
     align-items: center;
     a {
         text-decoration: none;
-        color: white;
+        color: #7774d1;
         margin: 0px 50px;
         transition: 0.5s;
+        font-size: 24pt;
     }
     a:hover {
-        color: #E00073;
+        color: white;
     }
 }
 
