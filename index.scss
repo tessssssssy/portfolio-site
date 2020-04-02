@@ -4,7 +4,7 @@
 
 @media screen and (min-width: 900px) {
     .landing {
-        background-image: url("images/sunset-7.png");
+        background: linear-gradient( rgba(26, 5, 32, 0.2) 0%, rgba(26, 5, 32, 1.0)), url("images/landing-bg.jpg");
         background-size: 100vw;
         .heading-container {
             width: 60%;
