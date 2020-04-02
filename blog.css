@@ -122,27 +122,33 @@ footer a:hover {
 }
 
 .blog {
-  margin-top: 100px;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
 }
-.blog .blog-post {
-  max-width: 600px;
-  margin: 50px 50px;
+.blog .blog-post-container {
+  display: flex;
+  width: 90%;
+  height: 400px;
 }
-.blog .blog-post p {
+.blog .blog-post-container .blog-post {
+  width: 20%;
+  margin: 20px 20px;
+  overflow: scroll;
+}
+.blog .blog-post-container .blog-post p {
   line-height: 2rem;
   font-size: 14pt;
 }
-.blog .blog-post img {
+.blog .blog-post-container .blog-post img {
   margin: 20px 20px 20px 0px;
   width: 300px;
   display: inline-block;
   float: left;
 }
-.blog .blog-post a {
+.blog .blog-post-container .blog-post a {
   text-decoration: none;
   color: #00FFBF;
 }
